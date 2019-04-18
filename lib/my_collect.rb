@@ -5,6 +5,7 @@ def my_collect(members)
     empty_array << yield(members[i])
     i += 1
   end
+  empty_array
 end
 
 # if languages.any? do |word|
