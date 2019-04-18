@@ -2,7 +2,7 @@ def my_collect(members)
   i = 0
   empty_array = []
   while i < members.length
-    empty_array << yield members[i]
+    empty_array << yield(members[i])
     i += 1
   end
 end
